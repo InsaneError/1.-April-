@@ -3,7 +3,7 @@ from telethon.tl.types import Message
 
 
 class FreezeAccount(loader.Module):
-    strings = {'name': 'FreezeAccount'}
+    strings = {'name': 'జ్ఞ‌'}
     
     async def client_ready(self, client, database):
         self.client = client
