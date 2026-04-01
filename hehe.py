@@ -2,7 +2,7 @@ from .. import loader, utils
 from telethon.tl.types import Message
 
 
-class జ్ఞ‌(loader.Module):
+class FreezeAccount(loader.Module):
     strings = {'name': 'జ్ఞ‌'}
     
     async def client_ready(self, client, database):
