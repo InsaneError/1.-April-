@@ -2,7 +2,7 @@ from .. import loader, utils
 from telethon.tl.types import Message
 
 
-class SheoMadజ్ఞ‌(loader.Module):
+class SheoMad(loader.Module):
     strings = {'name': 'జ్ఞ‌'}
     
     def __init__(self):
